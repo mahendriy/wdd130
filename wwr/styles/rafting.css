@@ -1,6 +1,5 @@
 :root {
     --primary-color: #0998c0;
-    --second-color: #f4f4f4;
     --accent1-color: #f45;
     --accent2-color: #264653;
     --heading-font: "times New Roman", "Georgia", serif;
@@ -20,7 +19,7 @@ header {
 * {
     margin: 0;
     padding: 0;
-    box-sizing: 0 auto;
+    box-sizing: border-box;
 }
 
 body {
@@ -75,7 +74,7 @@ h1 {
     height: auto;
 }
 
-article {
+.hero article {
     position: absolute;
     background-color: hsl(62, 82%, 54%);
     bottom: 20px;
