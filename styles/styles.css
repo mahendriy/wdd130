@@ -1,9 +1,9 @@
 :root {
-    ma
+    margin: 0;
 }
 
 nav {
-    background-color: darkblue;
+    background-color: rgb(71, 71, 210);
     padding: 10px;
 }
 
@@ -81,7 +81,7 @@ footer {
 
 .box {
     margin: 1rem;
-    border: 1px solid rgb(rgb(76, 5, 5) rgb(2, 47, 2) blue / alpha);
+    border: 1px solid rgba(141, 20, 20, 0.3);
     padding: 1rem;
     background-color: #ddd;
     color: #000;
