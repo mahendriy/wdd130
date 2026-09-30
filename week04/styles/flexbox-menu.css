@@ -19,7 +19,7 @@ nav ul {
 
 nav a {
     display: block;
-    color: #fff;
+    color: #db0a0a;
     text-align: center;
     padding: 1rem;
     text-decoration: none;
@@ -27,7 +27,7 @@ nav a {
 
 p {
     margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 10%);
+    border: 1px solid rgba(107, 87, 87, 0.1);
     padding: 1rem;
     background-color: #bed;
     max-width: 400px;
