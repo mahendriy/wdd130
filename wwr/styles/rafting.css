@@ -42,7 +42,6 @@ body {
 header,
 main,
 footer {
-    width: 840px;
     margin: 0 auto;
 }
 
@@ -58,6 +57,7 @@ section,
 article {
     margin: 16px;
     padding: 8px;
+    justify-content: space-around;
 }
 
 .socialmedia a {
@@ -71,7 +71,7 @@ article {
 h1 {
     position: absolute;
     top: 20px;
-    width: 810px;
+    width: 100%;
     padding: 16px;
     text-align: center;
     opacity: 0.7;
@@ -90,7 +90,7 @@ h1 {
     background-color: hsl(62, 82%, 54%);
     bottom: 20px;
     opacity: 0.7;
-    width: 700px;
+    width: 100%;
 
 }
 
@@ -108,8 +108,11 @@ h1 {
 .history {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 1.25px 1rem;
     text-align: center;
+    align-items: center;
+    border: 1px solid black;
+    background-color: rgb(150, 146, 146);
+
 }
 
 .history-box {
@@ -117,7 +120,7 @@ h1 {
     border: 2px;
     background: rgb(219, 227, 228);
     display: grid;
-    grid-template-columns: 1fr 0.9fr;
+    grid-template-columns: 1fr none;
     gap: 1rem;
     align-items: start;
     padding: 1rem;
@@ -143,8 +146,17 @@ h1 {
 
 }
 
+.adventures {
+    border: 1px solid black;
+    background-color: rgb(149, 189, 189);
+}
+
+figure {
+    border: 1px solid black;
+}
+
 figure img {
-    width: 130px;
+    width: 100%;
     height: auto;
 }
 
