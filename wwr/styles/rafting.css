@@ -112,17 +112,12 @@ h1 {
     align-items: center;
     border: 1px solid black;
     background-color: rgb(150, 146, 146);
-
 }
 
 .history-box {
     margin-top: 0.7rem;
     border: 2px;
     background: rgb(219, 227, 228);
-    display: grid;
-    grid-template-columns: 1fr none;
-    gap: 1rem;
-    align-items: start;
     padding: 1rem;
 }
 
