@@ -39,34 +39,37 @@
               referrerpolicy="strict-origin-when-cross-origin"></iframe>
             <form>
                 <div class="first-field-group">
-                    <fieldset>
-                        <legend>Name</legend>
-                        <label for="name">Email</label>
-                        <label for="email">Message <br> purpose</label>
-                    </fieldset>
+                    <div class="label-left">
+                        <label for="name">Name</label>
+                        <label for="email">Email</label>
+                    </div>
                     <div class="label-right">
                         <input type="text" id="name" name="name" placeholder="name">
                         <input type="text" id="email" name="email" placeholder="Email" required>
+                    </div>
+                </div>
+                <div class="form-row purpose-row">
+                    <span id="purpose-label">Message<br>purpose</span>
+                    <fieldset aria-labelledby="purpose-label">
+                        <legend class="visually-hidden">Message purpose</legend>
                         <div class="message-purpose-container">
                             <label>
                                 <input type="radio" name="choice" id="general-inquiry"
                                   value="general inquiry" checked>
                                 General Inquiry
                             </label>
-
                             <label>
                                 <input type="radio" name="choice" id="reservation-question"
                                   value="Reservation Question">
                                 Reservation Question
                             </label>
-
                             <label>
                                 <input type="radio" name="choice" id="website-suggestion"
                                   value="Website Suggestion">
                                 Website Suggestion
                             </label>
                         </div>
-                    </div>
+                    </fieldset>
                 </div>
                 <div class="text-area-container">
                     <label for="message">Message</label>
