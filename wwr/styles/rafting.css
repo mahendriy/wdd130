@@ -1,6 +1,6 @@
 :root {
     --primary-color: #0998c0;
-    --accent1-color: #f45;
+    --accent1-color: rgb(99, 108, 111);
     --accent2-color: #264653;
     --heading-font: "times New Roman", "Georgia", serif;
     --body-font: arial, helvetica, sans-serif;
@@ -79,6 +79,10 @@ h1 {
     color: #0998c0;
 }
 
+.namepage {
+    position: static;
+}
+
 .hero img {
     display: block;
     width: 100%;
@@ -99,10 +103,19 @@ h1 {
     width: 125px;
 }
 
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer > .socialmedia {
+    display: inline;
+    float: right;
+}
+
 .socialmedia img {
     width: 20px;
     height: 20px;
-    float: right;
 }
 
 .history {
@@ -163,9 +176,141 @@ footer p {
     text-align: center;
 }
 
+.map {
+    display: grid;
+    margin: 20px;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.adress {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+form {
+    width: 600px;
+    /* margin: 0 auto; */
+    padding: 2rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    /* display: grid; */
+    /* align-items: flex-end; */
+}
+
+form label {
+    align-items: center;
+}
+
+form input [type="text"],
+form input [type="Email"],
+form textarea {
+    width: 150px;
+    box-sizing: border-box;
+    padding: 5px;
+    border: 1px solid #888;
+    border-radius: 2px;
+}
+
+form input [type="radio"] {
+    margin: 0 5px 0 0;
+}
+
+.message {
+    height: 40px;
+}
+
+form input [type="checkbox"] {
+    margin: 0;
+}
+
+form button {
+    grid-column: 1/3;
+    width: 210px;
+    padding: 4px;
+}
+
+.serve-container > h2 {
+    text-align: center;
+    margin-bottom: 1em;
+    border: 1px solid;
+}
+
+.serve-container {
+    margin-inline: 20px;
+    background-color: rgb(215, 213, 213);
+}
+
+.Employeeprofile {
+    /* border: 1px; */
+    text-align: center;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+}
+
+.Employeeprofile figure {
+    width: 200px;
+}
+
+.first-field-group {
+    display: flex;
+    gap: 3em;
+    /* border: 1px solid; */
+}
+
+.first-field-group > div {
+    /* border: 1px solid; */
+}
+
+.first-field-group label {
+    display: block;
+}
+
+.label-left > * {
+    display: block;
+    margin-block: 5px;
+}
+
+.label-right > input {
+    display: block;
+    margin-block: 5px;
+    width: 100%;
+}
+
+.message-purpose-container label {
+    display: block;
+    margin-block: 5px;
+}
+
+.text-area-container label {
+    display: block;
+}
+
+.text-area-container textarea {
+    width: 100%;
+}
+
+button {
+    background-color: #e2dcdc;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 100%;
+}
+
+/* form label :has (input[type="radio"]) {
+    grid-row: 2;
+} */
+
 /*.history {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-grow: 2;
 }
+    

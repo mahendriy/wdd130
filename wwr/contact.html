@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us page</title>
+    <meta name="description"
+      content="this is a contact page, you can contact the rifting page here and leave your comment here also">
+    <meta name="author" content="Mahandrisoa Razafintsalama" />
+    <link rel="stylesheet" href="styles/rafting.css" />
+</head>
+
+<body>
+    <header>
+        <img src="images/z-splash.png" alt="logopage" class="logo" />
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="namepage">White Water Rafting Company</h1>
+        <div class="adress">
+            <h5>123 Main River Street</h5>
+            <h5>Kolob California</h5>
+            <h5>+1 999 999 9999</h5>
+            <h5>info@whitewater.com</h5>
+        </div>
+
+        <div class="map">
+
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3168.612702347506!2d-113.15626142065429!3d37.42262819999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2smg!4v1791057674345!5m2!1sfr!2smg"
+              width="600" height="450" allowfullscreen="" loading="lazy"
+              referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            <form>
+                <div class="first-field-group">
+                    <div class="label-left">
+                        <label for="name">Name</label>
+                        <label for="email">Email</label>
+                        <legend>Message purpose</legend>
+                    </div>
+                    <div class="label-right">
+                        <input type="text" id="name" name="name" placeholder="name">
+                        <input type="text" id="email" name="email" placeholder="Email" required>
+                        <div class="message-purpose-container">
+                            <label>
+                                <input type="radio" name="choice" value="general inquiry" checked>
+                                General Inquiry
+                            </label>
+
+                            <label>
+                                <input type="radio" name="choice" value="Reservation Question">
+                                Reservation Question
+                            </label>
+
+                            <label>
+                                <input type="radio" name="choice" value="Website Suggestion">
+                                Website Suggestion
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-area-container">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" placeholder="Type Here"></textarea>
+                </div>
+
+                <label for="subscribe">
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    Please Subscribe me to the monthly newsletter
+                </label>
+                <button type="submit">Get in Touch!</button>
+            </form>
+
+
+        </div>
+
+        <div class="serve-container">
+            <h2>We Are Here to Serve You</h2>
+            <div class="Employeeprofile">
+                <figure>
+                    <img src="images/sara-teammate.avif" alt="employee one">
+                    <figcaption>Employee profile</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee-2.jpg" alt="Employee two">
+                    <figcaption>Employee profile</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee-3.jpg" alt="Employee three">
+                    <figcaption>Employee profile</figcaption>
+                </figure>
+            </div>
+        </div>
+
+
+    </main>
+
+    <footer>
+        <span>&copy; 2026 Rafting Company | Mahandrisoa Razafintsalama</span>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="facebook Icon" /></a>
+            <a href="htpps://instagram.com">
+                <img src="images/instagram.svg" alt="instagram Icon" /></a>
+            <a href="https://x.com"> <img src="images/x-bw.svg" alt="" /></a>
+        </nav>
+    </footer>
+</body>
+
+</html>
