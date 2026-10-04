@@ -279,6 +279,7 @@ fieldset {
 .label-left > * {
     display: block;
     margin-block: 5px;
+
 }
 
 .label-right > input {
