@@ -258,6 +258,10 @@ form button {
     width: 200px;
 }
 
+fieldset {
+    border: 0;
+}
+
 .first-field-group {
     display: flex;
     gap: 3em;
