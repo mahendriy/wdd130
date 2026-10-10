@@ -64,9 +64,7 @@ article {
     text-decoration: none;
 }
 
-.hero {
-    position: relative;
-}
+
 
 h1 {
     position: absolute;
@@ -359,6 +357,7 @@ button {
 
 .hero {
     border: 2px solid;
+    position: relative;
 }
 
 .booking {
@@ -383,6 +382,17 @@ button {
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: large;
+}
+
+.intro-title {
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+.intro-text {
+    font-size: large;
+    text-align: center;
 }
 
 .activity_image {
@@ -465,7 +475,7 @@ button {
     }
 }
 
-.newsletter-image,
+.newsletter-image
 .newsletter-content {
     width: 100%;
     box-sizing: border-box;
